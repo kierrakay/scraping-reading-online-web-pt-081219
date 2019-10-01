@@ -14,8 +14,7 @@
 
 #doc.css(".headline-26OIBN").text
 #will return only the text contained inside of element.
-#end
-require 'nokogiri'
+#endrequire 'nokogiri'
 require 'open-uri'
  
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
